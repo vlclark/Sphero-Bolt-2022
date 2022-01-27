@@ -21,6 +21,7 @@ async function startProgram() {
 	// Plays monkey sound and goes to red checkpoint
 
 	await Sound.Animal.Monkey.play(true)
+
 	
 }
 
