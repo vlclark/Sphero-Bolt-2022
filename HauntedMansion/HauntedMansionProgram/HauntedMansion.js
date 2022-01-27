@@ -7,6 +7,9 @@ Program: We will be making a program to go through a Haunted Mansion Maze filled
 
 async function startProgram() {
 	// Write code here
+	await speak('Start', true)
 	await roll(0,60,2);
+	setMainLed({ r: 0, g: 0, b: 225 })
+	
 }
 
