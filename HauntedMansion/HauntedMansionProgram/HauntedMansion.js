@@ -23,8 +23,16 @@ async function startProgram() {
 	await Sound.Animal.Monkey.play(true)
 	await roll(25,-29,2);
 	setMainLedainled({ r:255, g: 0, b: 0})
-	await roll(75,29,3);
-
+	await roll(110,19,3);
 	
+	// Plays whale sound and turns green
+	
+	await roll(40,36,2);
+	await roll(115,40,2);
+	setMainLedainled({ r: 0, g: 255, b: 0})
+	await Sound.Animal.Whale.play(true)
+	
+}
+
 }
 
