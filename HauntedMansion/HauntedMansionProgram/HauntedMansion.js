@@ -32,7 +32,14 @@ async function startProgram() {
 	setMainLedainled({ r: 0, g: 255, b: 0})
 	await Sound.Animal.Whale.play(true)
 	
+	// Roll through purple and last sound checkpoint
+	
+	await roll(-20,23,3);
+	await roll(-48,50,3);
+	await Sound.Animal.Eagle.play(True)
+	setMainLedainled({ r: 255, g: 0, b: 255})
 }
+
 
 }
 
